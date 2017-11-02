@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8"/>
+		<title>Alarm Clock</title>
+		<link href="style/style.css" rel="stylesheet" />
+
+
+	</head>
+	
+
+	<body>
+
+
+		<div class="overlay">
+
+			<div id="alarm-dialog">
+
+				<h2>Set Alarm Clock</h2>
+				
+				<form action="/action_page.php">
+				<label class="hours">
+					Hours
+					<input id="theHours" type="number" hours value="0" min="0" />
+				</label>
+
+				<label class="minutes">
+					Minutes
+					<input id="theMinutes" type="number" value="0" min="0" />
+				</label>
+
+				<label class="seconds">
+					Seconds
+					<input id="theSeconds" type="number" value="0" min="0" />
+				</label>
+	
+				<p id='thisP'>
+				<button id="btn1">Set Alarm</button>
+
+				
+				<input type="reset" value="Reset">
+
+				</form>
+				</p>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jQuery/myscript.js"></script> 
+	
+	</body>
+</html>
